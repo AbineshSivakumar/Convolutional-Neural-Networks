@@ -125,7 +125,7 @@ important of them: Reducing the size of the input image, and we should
 know that the larger your strides (the movements across pixels), the
 smaller the feature map
 
-### RECTIFIED LINEAR UNIT LAYER
+# RECTIFIED LINEAR UNIT LAYER
 
 The rectified linear activation function is a simple calculation that returns the
 value provided as input directly, or the value 0.0 if the input is 0.0 or less.
@@ -151,7 +151,7 @@ pixels, the borders, the colors, etc.). The rectifier serves to break up the lin
 even further in order to make up for the linearity that we might impose on an
 image when we put it through the convolution operation.
 
-### POOLING
+# POOLING
 
 A pooling layer is a new layer added after the convolutional layer. Specifically,
 after a nonlinearity (e.g. ReLU) has been applied to the feature maps output by a
@@ -173,7 +173,7 @@ we have three cheetah images, and in each image the cheetah's tear lines are
 taking a different angle. The feature after it has been pooled will be detected by
 the network despite the differences in its appearance between the three images.
 
-### FLATTENING
+# FLATTENING
 
 After getting a pooled featured map, the pooled featured map is flattened into a
 column.
@@ -186,7 +186,7 @@ artificial neural network later on
 ![image](https://user-images.githubusercontent.com/85313839/142590100-1342ae7f-36ef-4d36-8c03-68dfb87be6ce.png)
 
 
-### FULL CONNECTION
+# FULL CONNECTION
 
 It is a layer in which all the inputs from one layer to every activation unit of the
 next layer. There are three layers in the full connection step:
